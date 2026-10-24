@@ -4,7 +4,7 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
       // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
-      #Actividad                
+      #Actividad                        
       <ActividadController :cuestionario="cuestionario"/>
 
 </template>
@@ -19,71 +19,68 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Sistematización y analítica de datos agropecuarios',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> verificar su comprensión de las fuentes, organización, calidad, análisis, protección y gestión de datos agropecuarios.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es una fuente primaria de información agropecuaria?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Un boletín estadístico.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'La lectura directa de un pluviómetro.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un informe gremial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Una base consolidada.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué información constituye un metadato de una medición?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'El precio de venta.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La marca del cultivo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'La unidad y hora de captura.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El rendimiento proyectado.',
               esCorrecta: false,
             },
           ],
@@ -92,29 +89,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Qué formato se utiliza para intercambiar mensajes de sensores IoT?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'MP4.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'GeoTIFF.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'JPG.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'JSON.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -122,29 +120,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Cuál es un ejemplo de dato no estructurado?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Fotografía de un cultivo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Tabla de pesajes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Registro tabular de riego.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Hoja de inventario.',
               esCorrecta: false,
             },
           ],
@@ -153,28 +150,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Para qué sirve una clave primaria en una base de datos?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Ordenar las tablas por fecha.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Identificar de forma única un registro.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Eliminar todos los duplicados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Cifrar los archivos.',
               esCorrecta: false,
             },
           ],
@@ -184,28 +181,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué tipo de base de datos es adecuado para mediciones continuas fechadas?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'De grafos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Documental.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'De series de tiempo.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Clave-valor.',
               esCorrecta: false,
             },
           ],
@@ -215,29 +212,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué característica del big data alude a la rapidez de generación de datos?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Variedad.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Veracidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Valor.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Velocidad.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -245,29 +242,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Cuál es la finalidad de definir requisitos de información?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Precisar necesidades y condiciones del sistema.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Reemplazar la validación de datos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Evitar documentar procesos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Eliminar controles de acceso.',
               esCorrecta: false,
             },
           ],
@@ -277,28 +273,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué criterio de calidad evalúa si faltan registros o campos?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Exactitud.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Completitud.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Actualidad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Unicidad.',
               esCorrecta: false,
             },
           ],
@@ -308,28 +304,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué medida protege la confidencialidad de registros productivos?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Compartir contraseñas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Publicar datos personales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Controlar permisos de acceso.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Eliminar copias de seguridad.',
               esCorrecta: false,
             },
           ],
@@ -338,30 +334,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué describe la estadística descriptiva?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Predice siempre valores exactos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Sustituye la recolección.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Elimina la variabilidad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Resume los datos observados.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -370,28 +365,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué indicador permite evaluar la producción por unidad de superficie?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Rendimiento por hectárea.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Número de archivos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Cantidad de sensores.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Frecuencia de respaldo.',
               esCorrecta: false,
             },
           ],
@@ -400,29 +395,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué acción corresponde a la limpieza de datos?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Crear usuarios nuevos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Identificar registros duplicados.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Instalar estaciones climáticas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Diseñar etiquetas gráficas.',
               esCorrecta: false,
             },
           ],
@@ -431,29 +425,28 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Para qué se utiliza un libro de códigos?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Medir la temperatura.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Almacenar fotografías.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Documentar variables y categorías.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Reemplazar el análisis.',
               esCorrecta: false,
             },
           ],
@@ -462,29 +455,181 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Qué herramienta se menciona para visualizar datos?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Controlador de riego.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Báscula mecánica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Pluviómetro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Power BI.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué recurso se asocia con la arquitectura de big data?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Hadoop.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'GeoTIFF.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'JPG.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Formulario impreso.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué tipo de aprendizaje utiliza ejemplos con respuestas conocidas?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'No supervisado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Supervisado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Por agrupamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sin datos de entrenamiento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Para qué se reserva un conjunto de prueba al evaluar un modelo?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Modificar las etiquetas originales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Duplicar los registros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evaluar su desempeño con datos separados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar el entrenamiento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué ciclo orienta la mejora continua de los procesos?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'CSV.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'SQL.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'JSON.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'PHVA.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué práctica facilita la recuperación ante una contingencia?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mantener respaldos de información.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar registros históricos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Compartir claves de acceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Omitir planes de recuperación.',
               esCorrecta: false,
             },
           ],
