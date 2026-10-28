@@ -55,7 +55,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Bases de datos y big data',
+        titulo: 'Bases de datos y <i>big data</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -76,13 +76,13 @@ export default {
           },
           {
             numero: '2.4',
-            titulo: 'Big data: concepto, características y utilidad',
+            titulo: '<i>Big data</i>: concepto, características y utilidad',
             hash: 't_2_4',
           },
           {
             numero: '2.5',
             titulo:
-              'Aplicación del big data en procesos agropecuarios y agroindustriales',
+              'Aplicación del <i>big data</i> en procesos agropecuarios y agroindustriales',
             hash: 't_2_5',
           },
         ],
@@ -183,11 +183,11 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Herramientas de analítica, big data y representación gráfica',
+        titulo:
+          'Herramientas de analítica, <i>big data</i> y representación gráfica',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -197,7 +197,7 @@ export default {
           },
           {
             numero: '6.2',
-            titulo: 'Arquitectura de big data y Hadoop',
+            titulo: 'Arquitectura de <i>big data</i> y Hadoop',
             hash: 't_6_2',
           },
           {
@@ -213,11 +213,10 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Machine learning básico',
+        titulo: '<i>Machine learning</i> básico',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -415,7 +414,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06  <br> Responsable Ecosistema Virtual de Recursos Educativos Digitales  ',
+            'Profesional 06  <br> Responsable Ecosistema Virtual de Recursos Educativos Digitales  ',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -454,7 +453,7 @@ export default {
         },
         {
           nombre: 'Alejandro Delgado Acosta ',
-          cargo: 'Intérprete lenguaje de señas  ',
+          cargo: 'Intérprete lenguaje de señas  ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

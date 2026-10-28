@@ -17,7 +17,7 @@
             img.img-fluid.rounded-3(src="@/assets/curso/temas/intro/img1.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
         .col-12.col-md-12.col-lg-4(data-aos="fade-left")
           .h-100.d-flex.align-items-center
-            p.mb-0 Los contenidos siguen el recorrido de la sistematización. Primero se estudian las fuentes y tipos de datos, las bases de datos y el big data, la ingeniería de requisitos, la calidad y la seguridad de la información. Luego se abordan la estadística y los modelos matemáticos, la preparación de datos, las herramientas de analítica, la representación gráfica de datos y el machine learning básico. Finalmente se tratan la ciencia de datos y la verificación de resultados, la documentación técnica y los informes con enfoque de mejora continua, la sostenibilidad digital y la gestión de contingencias, con ejemplos resueltos y diagramas para el estudio autónomo.
+            p.mb-0 Los contenidos siguen el recorrido de la sistematización. Primero se estudian las fuentes y tipos de datos, las bases de datos y el b<i>big data</i>, la ingeniería de requisitos, la calidad y la seguridad de la información. Luego se abordan la estadística y los modelos matemáticos, la preparación de datos, las herramientas de analítica, la representación gráfica de datos y el <i>machine learning</i> básico. Finalmente se tratan la ciencia de datos y la verificación de resultados, la documentación técnica y los informes con enfoque de mejora continua, la sostenibilidad digital y la gestión de contingencias, con ejemplos resueltos y diagramas para el estudio autónomo.
 
 
 

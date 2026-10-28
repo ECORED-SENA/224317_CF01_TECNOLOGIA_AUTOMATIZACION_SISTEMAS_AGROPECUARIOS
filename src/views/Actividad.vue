@@ -212,7 +212,7 @@ export default {
         {
           id: 7,
           texto:
-            '¿Qué característica del big data alude a la rapidez de generación de datos?',
+            '¿Qué característica del <i>big data</i> alude a la rapidez de generación de datos?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
@@ -485,7 +485,9 @@ export default {
         },
         {
           id: 16,
-          texto: '¿Qué recurso se asocia con la arquitectura de big data?',
+          texto:
+           
+            '¿Qué recurso se asocia con la arquitectura de <i>big data</i>?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
