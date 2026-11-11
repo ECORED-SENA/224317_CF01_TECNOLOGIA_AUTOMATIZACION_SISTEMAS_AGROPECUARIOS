@@ -6,7 +6,7 @@
         .titulo-principal__numero
           span 2
         h1 Bases de datos y <i>big data</i>
-      p(data-aos="fade-left") Cuando el volumen de registros crece y varias personas o equipos necesitan consultarlos al mismo tiempo, las hojas de cálculo resultan insuficientes. Las bases de datos ofrecen una forma organizada, segura y eficiente de almacenar grandes cantidades de datos relacionados, garantizar su consistencia y recuperarlos rápidamente mediante consultas. En los sistemas agropecuarios automatizados son el lugar donde se guardan las lecturas de los sensores, los registros de producción, los inventarios y los datos de trazabilidad.      
+      p(data-aos="fade-left") Cuando el volumen de registros crece y varias personas o equipos necesitan consultarlos al mismo tiempo, las hojas de cálculo resultan insuficientes. Las bases de datos ofrecen una forma organizada, segura y eficiente de almacenar grandes cantidades de datos relacionados, garantizar su consistencia y recuperarlos rápidamente mediante consultas. En los sistemas agropecuarios automatizados, son el lugar donde se guardan las lecturas de los sensores, los registros de producción, los inventarios y los datos de trazabilidad.      
       Separador
       //- Inicio Tema2.1
       .row
@@ -192,7 +192,7 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img2.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 La herramienta más usada en el nivel conceptual es el modelo entidad-relación, que representa <b>entidades</b> (objetos de interés, como LOTE o CULTIVO), <b>atributos</b> (características de cada entidad, como área o variedad) y <b>relaciones</b> (vínculos entre entidades, como “un lote tiene muchas siembras”). La <b>cardinalidad</b> indica cuántos elementos de una entidad se relacionan con otra, ya sea uno a uno, uno a muchos o muchos a muchos. Este modelo facilita la conversación entre productores, técnicos y desarrolladores antes de construir el sistema.
-      p.mb-5(data-aos="fade-left") Una consulta es una solicitud de datos a la base de datos, formulada para obtener exactamente la información que se necesita. En las bases de datos relacionales las consultas se escriben en SQL (lenguaje de consulta estructurado), un lenguaje normalizado internacionalmente y compatible, con pequeñas variaciones, con la mayoría de los SGBD. Sus instrucciones básicas se asemejan a frases en inglés y se presentan a continuación:
+      p.mb-5(data-aos="fade-left") Una consulta es una solicitud de datos a la base de datos, formulada para obtener exactamente la información que se necesita. En las bases de datos relacionales, las consultas se escriben en SQL (lenguaje de consulta estructurado), un lenguaje normalizado internacionalmente y compatible, con pequeñas variaciones, con la mayoría de los SGBD. Sus instrucciones básicas se asemejan a frases en inglés y se presentan a continuación:
       //- Inicio Tabla
       .row.bg-fondo-2(data-aos="fade-right")
         .col-12
@@ -304,7 +304,7 @@
               .row(titulo="Valor")
                 p.mb-4 Utilidad que se puede obtener de los datos para la toma de decisiones.
       //- Fin Accordion 1
-      p(data-aos="fade-left") La utilidad del <i>big data</i> radica en su capacidad de revelar patrones, relaciones y tendencias que no son evidentes en conjuntos de datos pequeños. Al reunir información de muchas fuentes y periodos es posible avanzar por cuatro niveles de analítica, que se presentan a continuación:
+      p(data-aos="fade-left") La utilidad del <i>big data</i> radica en su capacidad de revelar patrones, relaciones y tendencias que no son evidentes en conjuntos de datos pequeños. Al reunir información de muchas fuentes y periodos, es posible avanzar por cuatro niveles de analítica, que se presentan a continuación:
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5

@@ -328,7 +328,7 @@
                         img(src='@/assets/curso/temas/t4/tarjeta07_4.png', alt='').img125
                     .col-12.col-lg.text-start
                       h4 Paso 4. Comparar con el umbral
-                      p Cuando la suma alcanza el umbral conocido se espera una etapa determinada, como la floración o la aparición de una nueva generación de insectos, y se programan las labores correspondientes.
+                      p Cuando la suma alcanza el umbral conocido, se espera una etapa determinada, como la floración o la aparición de una nueva generación de insectos, y se programan las labores correspondientes.
             //- Fin Linea de tiempo
       p(data-aos="fade-left") En la producción pecuaria, los modelos se utilizan para describir el crecimiento de los animales, la producción de leche, las necesidades nutricionales y la eficiencia alimenticia. Un ejemplo clásico es el modelo de Wood para la curva de lactancia, que describe la producción diaria de leche en función de los días de lactancia mediante una ecuación con tres parámetros, relacionados con el nivel de producción inicial, la fase de ascenso hasta el pico y el descenso posterior (Wood, 1967). Ajustado con los datos del ordeño automatizado, el modelo permite estimar la producción total de la lactancia y detectar vacas que se apartan de su curva esperada. Los modelos de uso frecuente en el agro se relacionan a continuación:
       .row.bg-fondo-3(data-aos="fade-right")
@@ -351,29 +351,29 @@
                     tbody
                       tr
                         td Grados día
-                        td Temperatura diaria, temperatura base.
-                        td Etapa fenológica.
-                        td Programar labores y monitoreos.
+                        td Temperatura diaria, temperatura base
+                        td Etapa fenológica
+                        td Programar labores y monitoreos
                       tr
                         td Balance hídrico
-                        td Lluvia, riego, evapotranspiración, suelo.
-                        td Agua disponible.
-                        td Decidir cuándo y cuánto regar.
+                        td Lluvia, riego, evapotranspiración, suelo
+                        td Agua disponible
+                        td Decidir cuándo y cuánto regar
                       tr
                         td Predicción de rendimiento
-                        td Clima, suelo, manejo.
-                        td Producción esperada.
-                        td Planear cosecha y comercialización.
+                        td Clima, suelo, manejo
+                        td Producción esperada
+                        td Planear cosecha y comercialización
                       tr
                         td Curva de lactancia de Wood
-                        td Días de lactancia y producción diaria.
-                        td Producción esperada por día.
-                        td Detectar desviaciones y proyectar la lactancia.
+                        td Días de lactancia y producción diaria
+                        td Producción esperada por día
+                        td Detectar desviaciones y proyectar la lactancia
                       tr
                         td Crecimiento animal
-                        td Edad, consumo, raza.
-                        td Peso esperado.
-                        td Programar ventas y ajustar raciones.
+                        td Edad, consumo, raza
+                        td Peso esperado
+                        td Programar ventas y ajustar raciones
             //- FinTabla
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-xl-8.col-md-12

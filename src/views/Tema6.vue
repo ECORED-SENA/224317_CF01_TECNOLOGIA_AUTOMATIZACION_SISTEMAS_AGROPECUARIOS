@@ -53,7 +53,7 @@
                 h4 Análisis de regresión y gráficos
                 p Permiten explorar relaciones entre variables, como el riego aplicado y el rendimiento.
       //- Fin Slideshow
-      p(data-aos="fade-left") Cuando el volumen crece o los análisis deben repetirse periódicamente, se recurre a bases de datos y a software de análisis especializado. Los lenguajes R y Python son los más utilizados en analítica de datos. R nació para la estadística y ofrece una amplia colección de paquetes para análisis y gráficos, mientras que Python es un lenguaje de propósito general con bibliotecas como pandas para manipulación de datos, NumPy para cálculo numérico, scikit-learn para aprendizaje automático y matplotlib para elaborar gráficos. La comparación de las principales herramientas se presenta a continuación:
+      p(data-aos="fade-left") Cuando el volumen crece o los análisis deben repetirse periódicamente, se recurre a bases de datos y a <i>software</i> de análisis especializado. Los lenguajes R y Python son los más utilizados en analítica de datos. R nació para la estadística y ofrece una amplia colección de paquetes para análisis y gráficos, mientras que Python es un lenguaje de propósito general con bibliotecas como pandas para manipulación de datos, NumPy para cálculo numérico, scikit-learn para aprendizaje automático y matplotlib para elaborar gráficos. La comparación de las principales herramientas se presenta a continuación:
       .row.bg-fondo-3(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5      
@@ -144,7 +144,7 @@
                         img(src='@/assets/curso/temas/t6/img1.png', style="width: 500px", data-aos="zoom-in").m-auto
                 //- Fin Carrusel
       p.p-3.bg-color-2(data-aos="fade-left") En estas arquitecturas se combinan bases de datos relacionales, para los datos estructurados que requieren integridad, con bases de datos no relacionales, que escalan con facilidad y aceptan datos variados. Así, el registro de ventas de una cooperativa puede residir en una base relacional, mientras que los mensajes de miles de sensores encajan mejor en una base de series de tiempo o documental.
-      p(data-aos="fade-left") <b>Apache Hadoop</b> es un conjunto de software libre diseñado para almacenar y procesar grandes volúmenes de datos distribuyéndolos entre muchos computadores comunes que trabajan en conjunto, llamados clúster. Sus componentes y su herramienta complementaria más usada se presentan a continuación:
+      p(data-aos="fade-left") <b>Apache Hadoop</b> es un conjunto de <i>software</i> libre diseñado para almacenar y procesar grandes volúmenes de datos distribuyéndolos entre muchos computadores comunes que trabajan en conjunto, llamados clúster. Sus componentes y su herramienta complementaria más usada se presentan a continuación:
       .row.bg-fondo-1(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5
@@ -263,28 +263,28 @@
                     tbody
                       tr
                         td Líneas
-                        td Representar la evolución en el tiempo.
-                        td Temperatura del galpón durante la noche.
+                        td Representar la evolución en el tiempo
+                        td Temperatura del galpón durante la noche
                       tr
                         td Barras
-                        td Comparar categorías.
-                        td Rendimiento por lote.
+                        td Comparar categorías
+                        td Rendimiento por lote
                       tr
                         td Histograma
-                        td Representar la distribución de una variable.
-                        td Pesos de un lote de pollos.
+                        td Representar la distribución de una variable
+                        td Pesos de un lote de pollos
                       tr
                         td Dispersión
-                        td Representar la relación entre dos variables.
-                        td Riego aplicado y rendimiento.
+                        td Representar la relación entre dos variables
+                        td Riego aplicado y rendimiento
                       tr
                         td Diagrama de caja
-                        td Representar la dispersión y los atípicos.
-                        td Producción diaria por vaca.
+                        td Representar la dispersión y los atípicos
+                        td Producción diaria por vaca
                       tr
                         td Mapa
-                        td Representar la distribución espacial.
-                        td Humedad del suelo por lote.
+                        td Representar la distribución espacial
+                        td Humedad del suelo por lote
             //- FinTabla
             p(data-aos="fade-left") Las herramientas de representación gráfica más usadas se presentan a continuación:
       //- Inicio Tarjetas

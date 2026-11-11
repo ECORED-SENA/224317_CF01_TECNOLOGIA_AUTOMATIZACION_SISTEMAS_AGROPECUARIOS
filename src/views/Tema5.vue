@@ -146,7 +146,7 @@
       .row
         #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 5.3 Datos cualitativos y cuantitativos, codificación y libro de códigos
-      p(data-aos="fade-left") Para preparar los datos conviene distinguir los <b>datos cualitativos</b>, que describen cualidades o categorías, como la variedad sembrada, el tipo de síntoma registrado o el nombre del proveedor, de los <b>datos cuantitativos</b>, que expresan cantidades medibles o contables, como el peso, el volumen de riego o el número de frutos. Los cualitativos requieren sistemas de códigos, y los cuantitativos, unidades consistentes y, en algunos análisis, ajustes de escala.
+      p(data-aos="fade-left") Para preparar los datos, conviene distinguir los <b>datos cualitativos</b>, que describen cualidades o categorías, como la variedad sembrada, el tipo de síntoma registrado o el nombre del proveedor, de los <b>datos cuantitativos</b>, que expresan cantidades medibles o contables, como el peso, el volumen de riego o el número de frutos. Los cualitativos requieren sistemas de códigos, y los cuantitativos, unidades consistentes y, en algunos análisis, ajustes de escala.
       .row.mb-5.justify-content-center.align-items-start        
         .col-12.col-sm-9.col-lg-5.mb-4.mb-lg-0.order-1.order-lg-1(data-aos="fade-right")
           figure.mb-0.text-center
@@ -281,4 +281,3 @@ export default {
 </script>
 
 <style lang="sass"></style>
-

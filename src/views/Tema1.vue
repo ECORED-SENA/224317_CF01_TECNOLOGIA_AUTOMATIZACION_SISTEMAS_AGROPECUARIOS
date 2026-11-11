@@ -6,7 +6,7 @@
         .titulo-principal__numero
           span 1
         h1 Fuentes de información y tipos de datos agropecuarios
-      p(data-aos="fade-left") La automatización de los sistemas agropecuarios genera y consume datos de manera permanente. Sensores de humedad en invernaderos, medidores de leche en el ordeño mecánico, estaciones meteorológicas en fincas cafeteras o básculas conectadas en plantas de beneficio producen registros que, bien organizados, permiten decidir mejor sobre riego, alimentación, sanidad o logística. Antes de sistematizarlos es necesario conocer de dónde provienen, qué características tienen, en qué formatos se presentan y qué tipo de datos son, porque de ello depende la confiabilidad de cualquier análisis posterior.
+      p(data-aos="fade-left") La automatización de los sistemas agropecuarios genera y consume datos de manera permanente. Sensores de humedad en invernaderos, medidores de leche en el ordeño mecánico, estaciones meteorológicas en fincas cafeteras o básculas conectadas en plantas de beneficio producen registros que, bien organizados, permiten decidir mejor sobre riego, alimentación, sanidad o logística. Antes de sistematizarlos, es necesario conocer de dónde provienen, qué características tienen, en qué formatos se presentan y qué tipo de datos son, porque de ello depende la confiabilidad de cualquier análisis posterior.
       Separador
       //- Inicio Tema1.1
       .row
@@ -41,7 +41,7 @@
                         td Ubicación
                         td Interna
                         td Se genera dentro de la unidad productiva.
-                        td Sensores de un invernadero, registros de ordeño, software de gestión de la finca.
+                        td Sensores de un invernadero, registros de ordeño, <i>software</i> de gestión de la finca.
                       tr
                         td Ubicación
                         td Externa
@@ -113,7 +113,7 @@
           figure.mb-0.text-center
             img.mx-auto.img-fluid(src='@/assets/curso/temas/t1/img3.png', alt='', style="max-width: 600px;")
         .col-12.col-lg-7.order-2.order-lg-2(data-aos="fade-left")
-          p.mb-3.bg-color-2.p-4 Cada variable tiene además un <b>rango</b> de valores posibles, es decir, un intervalo dentro del cual se espera que se ubique el dato. Conocer los rangos permite detectar errores de captura desde el principio. Una humedad relativa del 140 % o un pH de suelo de 15 no son valores posibles y revelan una falla del sensor o un error de digitación. Además del rango físico conviene conocer el rango esperado para el proceso, que es más estrecho y sirve para identificar situaciones que requieren atención, como una temperatura corporal elevada en un bovino.
+          p.mb-3.bg-color-2.p-4 Cada variable tiene además un <b>rango</b> de valores posibles, es decir, un intervalo dentro del cual se espera que se ubique el dato. Conocer los rangos permite detectar errores de captura desde el principio. Una humedad relativa del 140 % o un pH de suelo de 15 no son valores posibles y revelan una falla del sensor o un error de digitación. Además del rango físico, conviene conocer el rango esperado para el proceso, que es más estrecho y sirve para identificar situaciones que requieren atención, como una temperatura corporal elevada en un bovino.
           p El <b>formato</b> es la forma en que los datos se almacenan y se intercambian. Los formatos más comunes en los procesos agropecuarios automatizados, con un ejemplo de uso y las herramientas gratuitas que permiten abrirlos, se presentan a continuación:
       .row.bg-fondo-2(data-aos="fade-right")
         .col-12
@@ -149,7 +149,7 @@
                         td Mensajes de sensores de una plataforma de internet de las cosas.
                         td Editores de texto, Python, navegadores web.
                       tr
-                        td Shapefile / GeoJSON
+                        td <i>Shapefile</i> / GeoJSON
                         td Vectorial geográfico
                         td Polígonos de los lotes de una finca.
                         td QGIS.
@@ -195,7 +195,7 @@
                     img(src='@/assets/curso/temas/t1/tarjeta02_1.png')
                 .col-md-6.mb-4.mb-md-0
                   h4 Datos estructurados
-                  p Se organizan en un esquema definido de filas y columnas, donde cada columna es un atributo con un tipo de dato conocido (número, texto o fecha) y cada fila es un registro. Se pueden ordenar, filtrar, sumar y relacionar con facilidad, y son la base de las hojas de cálculo y de las bases de datos relacionales (Silberschatz et al., 2020). Ejemplo, el registro de pesajes de una granja porcícola.
+                  p Se organizan en un esquema definido de filas y columnas, donde cada columna es un atributo con un tipo de dato conocido (número, texto o fecha) y cada fila es un registro. Se pueden ordenar, filtrar, sumar y relacionar con facilidad, y son la base de las hojas de cálculo y de las bases de datos relacionales (Silberschatz et al., 2020). Ejemplo; el registro de pesajes de una granja porcícola.
             .py-3.py-md-4(titulo="Datos semiestructurados")
               .row.align-items-center
                 .col-md-6.mb-4.mb-md-0
@@ -203,7 +203,7 @@
                     img(src='@/assets/curso/temas/t1/tarjeta02_2.png')
                 .col-md-6
                   h4 Datos semiestructurados
-                  p No se ajustan a una tabla rígida, pero incluyen etiquetas que describen su contenido y organizan sus elementos. Los formatos JSON y XML son los más comunes. Ejemplo, el mensaje que una estación meteorológica envía a la nube con el identificador del equipo, la hora y una lista de lecturas, sin que todas las estaciones envíen exactamente los mismos campos.
+                  p No se ajustan a una tabla rígida, pero incluyen etiquetas que describen su contenido y organizan sus elementos. Los formatos JSON y XML son los más comunes. Ejemplo; el mensaje que una estación meteorológica envía a la nube con el identificador del equipo, la hora y una lista de lecturas, sin que todas las estaciones envíen exactamente los mismos campos.
             .py-3.py-md-4(titulo="Datos no estructurados")
               .row.align-items-center
                 .col-md-6.mb-4.mb-md-0
@@ -211,7 +211,7 @@
                     img(src='@/assets/curso/temas/t1/tarjeta02_3.png')
                 .col-md-6
                   h4 Datos no estructurados
-                  p No siguen un esquema predefinido. Incluyen imágenes, videos, audios, documentos de texto libre y mensajes. Contienen información valiosa, pero antes de analizarlos es necesario extraer de ellos características que puedan organizarse. Ejemplo, el número de frutos presentes en una fotografía tomada con dron.
+                  p No siguen un esquema predefinido. Incluyen imágenes, videos, audios, documentos de texto libre y mensajes. Contienen información valiosa, pero antes de analizarlos es necesario extraer de ellos características que puedan organizarse. Ejemplo; el número de frutos presentes en una fotografía tomada con dron.
       //- Cierres Pestanas horizontales
       p(data-aos="fade-left") La organización de cada tipo determina dónde se almacena habitualmente y qué tan fácil resulta analizarlo, como se compara a continuación:
       .row.bg-fondo-3(data-aos="fade-right")
